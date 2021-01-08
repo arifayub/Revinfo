@@ -1,0 +1,428 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+html{
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+:root{
+--black-color: #222222;
+--red-color: #EC2458;
+--blue-color: #25BED6;
+--green-color  :#23D295;
+--white-color:#fff;
+}
+/**
+@font-face{
+font-family: font1;
+src: url(FontsFree-Net-SFProDisplay-Regular.ttf);
+}**/
+h1{
+font-size: 40px;
+}
+h2{
+font-size: 35px;
+padding-bottom: 10px;
+}
+h3{
+font-size: 20px!important;
+padding-bottom: 10px;
+}
+a{
+text-decoration: none;
+}
+ul{
+list-style: none;
+}
+@media screen and (max-width: 767px){
+h1{
+font-size: 35px!important;
+}
+h2{
+font-size: 30px!important;
+padding-bottom: 8px;
+}
+h3{
+font-size: 18px!important;
+padding-bottom: 6px;
+}
+}
+.title p{
+line-height: 35px;
+}
+/*-------- navbar section css --------*/
+.navbar{
+background-color: var(--white-color);
+}
+.fa-bars{
+font-size: 22px;
+color: var(--blue-color);
+}
+ul.navbar-nav{
+margin-right: 10px;
+}
+ul li{
+margin: 0px 10px;
+}
+ul li a{
+color: #444444;
+font-size: 14px;
+letter-spacing: 0.6px;
+}
+ul li a:hover{
+color: var(--blue-color);
+}
+.nav-line img{
+height:40px;
+color:#555555;
+}
+.signup button{
+border-radius: 5px;
+color: #444444;
+padding: 5px 30px;
+font-size: 14px;
+}
+.signup button:hover{
+border:1px solid var(--red-color);
+background-color: var(--red-color);
+color: var(--white-color);
+}
+@media screen and (max-width: 767px){
+	.nav-line{
+		display:none;
+	}
+}
+/****-------- First section css start--------***/
+.first-sec{
+margin-top: 200px;
+padding-bottom: 40px;
+}
+.top-heading {
+color:var(--blue-color);
+}
+.pay{
+color:var(--green-color);
+}
+.tech{
+color:var(--green-color);
+}
+.first-sec-para p{
+color: #444444;
+margin:30px 0 30px 0;
+}
+.get-started button{
+border-radius: 5px;
+background-color: var(--red-color);
+color: var(--white-color);
+padding: 5px 20px 5px 20px;
+font-size: 14px;
+margin-bottom: 20px;
+}
+.get-started button:hover{
+border:1px solid var(--red-color);
+background-color: var(--red-color);
+color: var(--white-color);
+}
+.quite_town img{
+margin-bottom:20px;
+margin-top:10px;
+}
+@media screen and (max-width: 767px){
+.first-sec{
+margin-top: 130px;
+}
+}
+/****-------- First section css Ends--------***/
+/****-------- second Mobile-bg section css start--------***/
+.mobile-banner{
+object-fit:contain;
+width: 100%;
+height: 100vh;
+background-image:url(images/buy-sell-bg.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: relative;
+}
+.mobile-div{
+margin:90px 0 90px 0;
+}
+.buy-sell h1{
+font-size:50px;
+margin:0 0 40px 74px;
+color:#fff;
+}
+.mobile-icon-text{
+margin-left:94px;
+}
+.fa-tachometer{
+color:#fff;
+}
+.mobile-icon-text p{
+border:1px solid white;
+background-color:#fff;
+padding:3px 8px;
+color:#444444;
+}
+.buy-sell-para p{
+color:#fff;
+margin-left:74px;
+font-size:20px;
+}
+@media screen and (max-width: 767px){
+.mobile-banner{
+width: 100%;
+height: 60vh;
+}
+.mobile-div{
+margin:20px 0;
+}
+.buy-sell-para p{
+font-size:16px;
+}
+}
+/****-------- Trading Partner section css start--------***/
+.trd-div h1{
+margin: 90px 0 30px 0px;
+color: var(--green-color);
+}
+.trd-div p{
+color: #000;
+font-size:17.5px;
+margin: 0 0 70px 0;
+}
+.iconrow .icon-div{
+display: inline-block;
+padding: 10px 30px 30px 30px;
+}
+.iconrow .icon-div .smline{
+width: 100px;
+}
+.iconrow .icon-div p{
+text-align: center;
+color: #000;
+padding-top: 10px;
+font-size: 14px;
+}
+.iconrow .icon-img{
+border-radius: 50%;
+border: 3px solid #E0E0E0;
+display: inline-block;
+}
+.iconrow .icon-img img{
+height: 100px;
+width: 100px;
+padding: 25px;
+}
+@media screen and (max-width: 767px){
+.trd-div h1{
+margin: 50px 0 30px 0px;
+}
+.iconrow .icon-div{
+padding: 10px 18px 30px 18px;
+}
+}
+/****-------- Trading Partner section css Ends--------***/
+/****-------- Laptop-bg section css start--------***/
+.laptop-bg{
+width: 100%;
+height: 150vh;
+background-image:url(images/market-place-bg.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-size: 100% 100%;
+position: relative;
+}
+.cms-icon{
+margin-top:180px;
+}
+.laptop{
+margin-top:158px;
+margin-right:0px;
+}
+.laptop h1{
+color:var(--blue-color);
+}
+.laptop p{
+color:#444444;
+font-size: 16px;
+}
+@media screen and (max-width: 767px){
+.laptop-bg{
+height: 90vh;
+}
+.cms-icon{
+margin-top:80px;
+}
+.laptop{
+margin-top:108px;
+margin-right:0px;
+}
+}
+/****-------- Laptop-bg section css Ends--------***/
+/****-------- Cash Intensive banking section css start--------***/
+.cash-bg{
+width: 100%;
+height: 90vh;
+background-image:url(images/cash-bg.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: relative;
+}
+.cash-view img{
+margin:50px 0 50px 0;
+width:90%;
+height:70%;
+}
+.cash-div{
+margin: 70px 0 70px 0;
+}
+.cash-view h1,p{
+margin-top:10px;
+color: var(--white-color)
+}
+.cash-view p{
+font-size: 20px;
+}
+@media screen and (max-width: 767px){
+.cash-view img{
+margin:30px 0 0 0;
+width:70%;
+height:70%;
+}
+.cash-div{
+margin: 0px 0 0px 0;
+}
+.cash-view p{
+font-size: 16px;
+letter-spacing: 0.5px;
+}
+}
+/****-------- Cash Intensive banking section css Ends--------***/
+/****-------- Cash Management section css start--------***/
+.cash-management{
+color: var(--green-color);
+margin: 80px 0 70px 0;
+}
+.management-icon img{
+width: 100%;
+height: 60vh;
+margin-bottom:40px;
+background-size: 100% 100%;
+}
+.icon-grp{
+display: flex;
+align-items: center;
+margin-bottom:40px;
+
+}
+.icon-grp img{
+height:40px;
+width:40px;
+}
+.icon-text{
+color:#444444;
+margin:0px 0 0 14px;
+}
+.cash-icon-grp{
+margin-left:30px;
+}
+@media screen and (max-width: 767px){
+.cash-management{
+margin: 50px 0 50px 0;
+}
+.management-icon img{
+width: 100%;
+height: 50vh;
+}
+}
+/****-------- Cash Management section css Ends--------***/
+footer{
+background-color: var(--black-color);
+}
+.footer {
+margin-bottom:0px;
+}
+.footer-top{
+padding: 50px 0 30px 0;
+display: flex;
+justify-content: space-between;
+}
+.footer-top .btn{
+color: #fff;
+padding: 5px 10px;
+border: 1px solid #fff;
+}
+.footer-top .btn:hover{
+color: #fff;
+}
+.footer-div img{
+width:30px;
+height:40px;
+}
+.line{
+border-top: 1px solid #808080;
+}
+.about,.help,.explore{
+color:var(--red-color)
+}
+footer h2{
+margin-bottom: 0;
+}
+footer ul{
+list-style: none;
+}
+footer ul li{
+margin: 0;
+}
+footer ul li a{
+color:#fff;
+}
+li a:hover{
+text-decoration: none;
+color:var(--blue-color);
+}
+.explore-items{
+display: flex;
+align-items: center;
+border:1px solid #313131;
+padding: 20px;
+background: #383838;
+border-radius: 5px;
+}
+.explore-items span{
+color: #fff;
+font-size: 14px;
+letter-spacing: 0.5px;
+}
+.last{
+margin-bottom:0px;
+padding-left: 10px;
+color: #808080;
+}
+.scrollup{
+cursor: pointer;
+}
+#scrollbutton{
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+color: #fff;
+border: 1px solid #fff;
+border-radius: 50%;
+background: var(--blue-color);
+padding: 15px;
+z-index: 99;
+}
+#scrollbutton:hover{
+background: #606060;
+}
+@media screen and (max-width: 767px){
+.explore-items{
+padding: 15px;
+}
+}
